@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A8B86B72B0670A90013CFB6 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8B86B62B0670A90013CFB6 /* Array+Identifiable.swift */; };
+		3F8A2F522AF1465D008C1D16 /* AircraftState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A2F512AF1465D008C1D16 /* AircraftState.swift */; };
+		3F8A2F542AF14F6D008C1D16 /* AircraftStateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A2F532AF14F6D008C1D16 /* AircraftStateCell.swift */; };
+		3F8A2F562AF160C0008C1D16 /* OpenSkyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A2F552AF160C0008C1D16 /* OpenSkyService.swift */; };
+		3FB8E18E2B03CEEF00104CF7 /* Utah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8E18D2B03CEEF00104CF7 /* Utah.swift */; };
+		3FCFDAAC2AEAB77A00EA4DA5 /* OpenSkyUtahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFDAAB2AEAB77A00EA4DA5 /* OpenSkyUtahApp.swift */; };
+		3FCFDAAE2AEAB77A00EA4DA5 /* OpenSkyUtahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFDAAD2AEAB77A00EA4DA5 /* OpenSkyUtahView.swift */; };
+		3FCFDAB02AEAB77B00EA4DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFDAAF2AEAB77B00EA4DA5 /* Assets.xcassets */; };
+		3FCFDAB32AEAB77B00EA4DA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFDAB22AEAB77B00EA4DA5 /* Preview Assets.xcassets */; };
+		3FCFDABD2AEAB77B00EA4DA5 /* OpenSkyUtahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFDABC2AEAB77B00EA4DA5 /* OpenSkyUtahTests.swift */; };
+		3FCFDAC72AEAB77B00EA4DA5 /* OpenSkyUtahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFDAC62AEAB77B00EA4DA5 /* OpenSkyUtahUITests.swift */; };
+		3FCFDAC92AEAB77B00EA4DA5 /* OpenSkyUtahUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFDAC82AEAB77B00EA4DA5 /* OpenSkyUtahUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FCFDAB92AEAB77B00EA4DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCFDAA02AEAB77A00EA4DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCFDAA72AEAB77A00EA4DA5;
+			remoteInfo = OpenSkyUtah;
+		};
+		3FCFDAC32AEAB77B00EA4DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCFDAA02AEAB77A00EA4DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCFDAA72AEAB77A00EA4DA5;
+			remoteInfo = OpenSkyUtah;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8B86B62B0670A90013CFB6 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		3F8A2F512AF1465D008C1D16 /* AircraftState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AircraftState.swift; sourceTree = "<group>"; };
+		3F8A2F532AF14F6D008C1D16 /* AircraftStateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftStateCell.swift; sourceTree = "<group>"; };
+		3F8A2F552AF160C0008C1D16 /* OpenSkyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSkyService.swift; sourceTree = "<group>"; };
+		3FB8E18D2B03CEEF00104CF7 /* Utah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utah.swift; sourceTree = "<group>"; };
+		3FCFDAA82AEAB77A00EA4DA5 /* OpenSkyUtah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSkyUtah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCFDAAB2AEAB77A00EA4DA5 /* OpenSkyUtahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSkyUtahApp.swift; sourceTree = "<group>"; };
+		3FCFDAAD2AEAB77A00EA4DA5 /* OpenSkyUtahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSkyUtahView.swift; sourceTree = "<group>"; };
+		3FCFDAAF2AEAB77B00EA4DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCFDAB22AEAB77B00EA4DA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FCFDAB82AEAB77B00EA4DA5 /* OpenSkyUtahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSkyUtahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCFDABC2AEAB77B00EA4DA5 /* OpenSkyUtahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSkyUtahTests.swift; sourceTree = "<group>"; };
+		3FCFDAC22AEAB77B00EA4DA5 /* OpenSkyUtahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSkyUtahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCFDAC62AEAB77B00EA4DA5 /* OpenSkyUtahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSkyUtahUITests.swift; sourceTree = "<group>"; };
+		3FCFDAC82AEAB77B00EA4DA5 /* OpenSkyUtahUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSkyUtahUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCFDAA52AEAB77A00EA4DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCFDAB52AEAB77B00EA4DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCFDABF2AEAB77B00EA4DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCFDA9F2AEAB77A00EA4DA5 = {
+			isa = PBXGroup;
+			children = (
+				3FCFDAAA2AEAB77A00EA4DA5 /* OpenSkyUtah */,
+				3FCFDABB2AEAB77B00EA4DA5 /* OpenSkyUtahTests */,
+				3FCFDAC52AEAB77B00EA4DA5 /* OpenSkyUtahUITests */,
+				3FCFDAA92AEAB77A00EA4DA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCFDAA92AEAB77A00EA4DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFDAA82AEAB77A00EA4DA5 /* OpenSkyUtah.app */,
+				3FCFDAB82AEAB77B00EA4DA5 /* OpenSkyUtahTests.xctest */,
+				3FCFDAC22AEAB77B00EA4DA5 /* OpenSkyUtahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCFDAAA2AEAB77A00EA4DA5 /* OpenSkyUtah */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFDB102AEB1A0700EA4DA5 /* Model */,
+				3FCFDB0F2AEB1A0100EA4DA5 /* View */,
+				3FCFDB0E2AEB19F600EA4DA5 /* ViewModel */,
+				3FCFDB0D2AEB19EF00EA4DA5 /* Utility */,
+				3FCFDAAF2AEAB77B00EA4DA5 /* Assets.xcassets */,
+				3FCFDAB12AEAB77B00EA4DA5 /* Preview Content */,
+			);
+			path = OpenSkyUtah;
+			sourceTree = "<group>";
+		};
+		3FCFDAB12AEAB77B00EA4DA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFDAB22AEAB77B00EA4DA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FCFDABB2AEAB77B00EA4DA5 /* OpenSkyUtahTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFDABC2AEAB77B00EA4DA5 /* OpenSkyUtahTests.swift */,
+			);
+			path = OpenSkyUtahTests;
+			sourceTree = "<group>";
+		};
+		3FCFDAC52AEAB77B00EA4DA5 /* OpenSkyUtahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFDAC62AEAB77B00EA4DA5 /* OpenSkyUtahUITests.swift */,
+				3FCFDAC82AEAB77B00EA4DA5 /* OpenSkyUtahUITestsLaunchTests.swift */,
+			);
+			path = OpenSkyUtahUITests;
+			sourceTree = "<group>";
+		};
+		3FCFDB0D2AEB19EF00EA4DA5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0A8B86B62B0670A90013CFB6 /* Array+Identifiable.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		3FCFDB0E2AEB19F600EA4DA5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A2F552AF160C0008C1D16 /* OpenSkyService.swift */,
+				3FB8E18D2B03CEEF00104CF7 /* Utah.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		3FCFDB0F2AEB1A0100EA4DA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A2F532AF14F6D008C1D16 /* AircraftStateCell.swift */,
+				3FCFDAAB2AEAB77A00EA4DA5 /* OpenSkyUtahApp.swift */,
+				3FCFDAAD2AEAB77A00EA4DA5 /* OpenSkyUtahView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3FCFDB102AEB1A0700EA4DA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A2F512AF1465D008C1D16 /* AircraftState.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCFDAA72AEAB77A00EA4DA5 /* OpenSkyUtah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCFDACC2AEAB77B00EA4DA5 /* Build configuration list for PBXNativeTarget "OpenSkyUtah" */;
+			buildPhases = (
+				3FCFDAA42AEAB77A00EA4DA5 /* Sources */,
+				3FCFDAA52AEAB77A00EA4DA5 /* Frameworks */,
+				3FCFDAA62AEAB77A00EA4DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSkyUtah;
+			productName = OpenSkyUtah;
+			productReference = 3FCFDAA82AEAB77A00EA4DA5 /* OpenSkyUtah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FCFDAB72AEAB77B00EA4DA5 /* OpenSkyUtahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCFDACF2AEAB77B00EA4DA5 /* Build configuration list for PBXNativeTarget "OpenSkyUtahTests" */;
+			buildPhases = (
+				3FCFDAB42AEAB77B00EA4DA5 /* Sources */,
+				3FCFDAB52AEAB77B00EA4DA5 /* Frameworks */,
+				3FCFDAB62AEAB77B00EA4DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCFDABA2AEAB77B00EA4DA5 /* PBXTargetDependency */,
+			);
+			name = OpenSkyUtahTests;
+			productName = OpenSkyUtahTests;
+			productReference = 3FCFDAB82AEAB77B00EA4DA5 /* OpenSkyUtahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FCFDAC12AEAB77B00EA4DA5 /* OpenSkyUtahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCFDAD22AEAB77B00EA4DA5 /* Build configuration list for PBXNativeTarget "OpenSkyUtahUITests" */;
+			buildPhases = (
+				3FCFDABE2AEAB77B00EA4DA5 /* Sources */,
+				3FCFDABF2AEAB77B00EA4DA5 /* Frameworks */,
+				3FCFDAC02AEAB77B00EA4DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCFDAC42AEAB77B00EA4DA5 /* PBXTargetDependency */,
+			);
+			name = OpenSkyUtahUITests;
+			productName = OpenSkyUtahUITests;
+			productReference = 3FCFDAC22AEAB77B00EA4DA5 /* OpenSkyUtahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCFDAA02AEAB77A00EA4DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3FCFDAA72AEAB77A00EA4DA5 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					3FCFDAB72AEAB77B00EA4DA5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3FCFDAA72AEAB77A00EA4DA5;
+					};
+					3FCFDAC12AEAB77B00EA4DA5 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3FCFDAA72AEAB77A00EA4DA5;
+					};
+				};
+			};
+			buildConfigurationList = 3FCFDAA32AEAB77A00EA4DA5 /* Build configuration list for PBXProject "OpenSkyUtah" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCFDA9F2AEAB77A00EA4DA5;
+			productRefGroup = 3FCFDAA92AEAB77A00EA4DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCFDAA72AEAB77A00EA4DA5 /* OpenSkyUtah */,
+				3FCFDAB72AEAB77B00EA4DA5 /* OpenSkyUtahTests */,
+				3FCFDAC12AEAB77B00EA4DA5 /* OpenSkyUtahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCFDAA62AEAB77A00EA4DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCFDAB32AEAB77B00EA4DA5 /* Preview Assets.xcassets in Resources */,
+				3FCFDAB02AEAB77B00EA4DA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCFDAB62AEAB77B00EA4DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCFDAC02AEAB77B00EA4DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCFDAA42AEAB77A00EA4DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A2F522AF1465D008C1D16 /* AircraftState.swift in Sources */,
+				3FB8E18E2B03CEEF00104CF7 /* Utah.swift in Sources */,
+				3FCFDAAE2AEAB77A00EA4DA5 /* OpenSkyUtahView.swift in Sources */,
+				3FCFDAAC2AEAB77A00EA4DA5 /* OpenSkyUtahApp.swift in Sources */,
+				3F8A2F562AF160C0008C1D16 /* OpenSkyService.swift in Sources */,
+				0A8B86B72B0670A90013CFB6 /* Array+Identifiable.swift in Sources */,
+				3F8A2F542AF14F6D008C1D16 /* AircraftStateCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCFDAB42AEAB77B00EA4DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCFDABD2AEAB77B00EA4DA5 /* OpenSkyUtahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCFDABE2AEAB77B00EA4DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCFDAC92AEAB77B00EA4DA5 /* OpenSkyUtahUITestsLaunchTests.swift in Sources */,
+				3FCFDAC72AEAB77B00EA4DA5 /* OpenSkyUtahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FCFDABA2AEAB77B00EA4DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCFDAA72AEAB77A00EA4DA5 /* OpenSkyUtah */;
+			targetProxy = 3FCFDAB92AEAB77B00EA4DA5 /* PBXContainerItemProxy */;
+		};
+		3FCFDAC42AEAB77B00EA4DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCFDAA72AEAB77A00EA4DA5 /* OpenSkyUtah */;
+			targetProxy = 3FCFDAC32AEAB77B00EA4DA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FCFDACA2AEAB77B00EA4DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FCFDACB2AEAB77B00EA4DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCFDACD2AEAB77B00EA4DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenSkyUtah/Preview Content\"";
+				DEVELOPMENT_TEAM = KFPSLPBU25;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.is543.OpenSkyUtah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FCFDACE2AEAB77B00EA4DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenSkyUtah/Preview Content\"";
+				DEVELOPMENT_TEAM = KFPSLPBU25;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.is543.OpenSkyUtah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FCFDAD02AEAB77B00EA4DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFPSLPBU25;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.is543.OpenSkyUtahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSkyUtah.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenSkyUtah";
+			};
+			name = Debug;
+		};
+		3FCFDAD12AEAB77B00EA4DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFPSLPBU25;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.is543.OpenSkyUtahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSkyUtah.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenSkyUtah";
+			};
+			name = Release;
+		};
+		3FCFDAD32AEAB77B00EA4DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFPSLPBU25;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.is543.OpenSkyUtahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenSkyUtah;
+			};
+			name = Debug;
+		};
+		3FCFDAD42AEAB77B00EA4DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFPSLPBU25;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.byu.is543.OpenSkyUtahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenSkyUtah;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCFDAA32AEAB77A00EA4DA5 /* Build configuration list for PBXProject "OpenSkyUtah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCFDACA2AEAB77B00EA4DA5 /* Debug */,
+				3FCFDACB2AEAB77B00EA4DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCFDACC2AEAB77B00EA4DA5 /* Build configuration list for PBXNativeTarget "OpenSkyUtah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCFDACD2AEAB77B00EA4DA5 /* Debug */,
+				3FCFDACE2AEAB77B00EA4DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCFDACF2AEAB77B00EA4DA5 /* Build configuration list for PBXNativeTarget "OpenSkyUtahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCFDAD02AEAB77B00EA4DA5 /* Debug */,
+				3FCFDAD12AEAB77B00EA4DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCFDAD22AEAB77B00EA4DA5 /* Build configuration list for PBXNativeTarget "OpenSkyUtahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCFDAD32AEAB77B00EA4DA5 /* Debug */,
+				3FCFDAD42AEAB77B00EA4DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCFDAA02AEAB77A00EA4DA5 /* Project object */;
+}
